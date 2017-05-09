@@ -1,0 +1,122 @@
+body {
+	background: url('../img/silkbrush8.png');
+	background-repeat: space;
+	background-color: #303030;
+	background-attachment: fixed;
+	color: white;
+}
+
+p{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	background-color: #303030;
+}
+.navbar span {
+	color: crimson; 
+}
+
+h1 span {
+	color: crimson;
+}
+
+h1 {
+	padding-top: 100px;
+	text-align: center;
+}
+
+div h3{
+	text-align: center;
+	background-color: black;
+	border-color: white;
+}
+
+h4{
+	text-align: center;
+}
+
+.desc-box-illust a{
+	color: white;
+}
+
+.ilust {
+	max-width: 150px;
+	height: 256px;
+	display: block; 
+	margin: auto;
+	background-color: black;
+}
+
+.media-body{
+	align-content: center;
+	text-align: center;
+	width: 100%;
+}
+
+.media-heading{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.audio-box{
+	text-align: center;
+}
+
+.audio-img {
+	width: 110%;
+	height: 230px;
+	background-color: black;
+}
+
+.audio-player{
+	height: 31px;
+	width: 100%;
+	align-self: center;
+}
+
+.box {
+	padding-bottom: 10px;
+}
+
+.panel{
+	height: 216px;
+	width: 60%;
+}
+
+.panel-heading{
+	background-color: red;
+}
+
+.panel-body{
+	padding-top: 40px;
+	background-color: #303030;
+	color: white;
+	text-align: center;
+}
+
+.panel-footer{
+	background-color: #A4A4A4;
+}
+
+.desc-box-illust {
+	padding: 10px 4px 15px 4px;
+}
+
+.botones-tabla{
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+}
+
+#boton-paginado{
+	padding-bottom: 2px;
+}
+
+#botones-numericos{
+	padding-left: 5px;
+	padding-right: 5px;
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans|Oxygen");
+
+body h1, h2, h3 {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#song-info p{
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.container > div {
+	margin-bottom: 40px;
+}
+
+#author-info h2, p{
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#illust {
+	max-width: 100%; 
+	display: block; 
+	margin: auto;
+	background-color: black;
+	/*
+	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Oxygen', sans-serif;
+	*/
+}
+
+.comment {
+	margin: 10px 0 10px 0;
+	padding-right: 10px;
+}
+
+#post-a-commment textarea {
+	font-family: 'Oxygen', sans-serif;
+	width: 100%;
+	height: 200px;
+	color: black;
+	padding: 10px 10px 10px 10px;
+}
+
+#post-a-commment label{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 21px;
+}
+
+.gray-text {
+	color: gray;
+}
+
+.media-body {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 15px;
+}
+
+#post-button {
+	margin: auto;
+}
+
+@media screen and (max-width: 768px){
+	#song-player {
+		width: 100%;
+	}
+}
+
+.ratings {
+	float: right;
+	margin-top: 10px;
+}
+
+.points {
+	float: right;
+	color: peachpuff;
+}
