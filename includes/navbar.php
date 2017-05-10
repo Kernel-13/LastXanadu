@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
@@ -29,10 +28,30 @@
 						<li><a href="illust.php">Ilustración Aleatoria</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Popular</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Popular <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="popular-musica.php">Musica Popular </a></li>
+						<li><a href="popular-ilustraciones.php">Ilustraciones Populares</a></li>
+					</ul>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Ranking <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="rankingM.php">Música</a></li>
+						<li><a href="rankingI.php">Ilustraciones</a></li>
+					</ul>
+				</li>
+				<li><a href="site_map.php">Mapa del Sitio</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-					<li class="dropdown">
+				<?php 
+
+				if (true) {
+					echo '<li><a href="register.php"><span class="glyphicon glyphicon-user"></span> Registrate</a></li>
+					<li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Iniciar Sesion</a></li>';
+				} else {
+					echo '<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Mi Cuenta <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="user.php">Mi Perfil</a></li>
@@ -43,8 +62,11 @@
 							<li><a href="upload_song.php">Subir Canción</a></li>
 							<li><a href="index.php">Logout</a></li>
 						</ul>
-					</li>
-				</ul>
+					</li>';
+				}
+
+				?>
+			</ul>
 		</div>
 	</div>
 </nav>
